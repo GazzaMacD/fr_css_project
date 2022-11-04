@@ -1,6 +1,9 @@
 // Colors
 $rich-black: #010203;
-$alive-v-green: #00d1b3;
+$orange: #f9423a;
+
+// Opacity
+$base-opacity: 1;
 
 // Breakpoints - based on bootstrap
 $breakpoints: (
@@ -10,27 +13,9 @@ $breakpoints: (
   wide: 1200px,
 );
 
-// Fonts
-$font-family-sans-serif:
-  // Cross-platform generic font family (default user interface font)
-  system-ui,
-  // Safari for macOS and iOS (San Francisco)
-  -apple-system,
-  // Windows
-  "Segoe UI",
-  // Android
-  Roboto,
-  // Basic web fallback
-  "Helvetica Neue",
-  Arial,
-  // Linux
-  "Noto Sans",
-  "Liberation Sans",
-  // Sans serif fallback
-  sans-serif,
-  // Emoji fonts
-  "Apple Color Emoji",
-  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+// Font familys
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$arial-black: "Arial Black", Arial, sans-serif;
 
 $base-font-size: 1rem;
 $line-height-base: 1.5;

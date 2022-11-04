@@ -1,6 +1,6 @@
-@import "@/styles/sass/main";
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@charset 'UTF-8';
+@import "sass/abstracts/variables";
+@import "sass/abstracts/mixins";
+@import "sass/base/reset";
+@import "sass/base/typography";
+@import "sass/layout/containers";

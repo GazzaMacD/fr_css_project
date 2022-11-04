@@ -49,6 +49,19 @@ const Home: TNextPageWithLayout = (): JSX.Element => {
             vulputate laoreet massa. Integer at est molestie, viverra velit sed,
             porttitor eros.
           </p>
+          <h5>Paragraph with Links</h5>
+          <p>
+            Nullam non{` `}
+            <a href="https://en.wikipedia.org/wiki/Main_Page">wikipedia</a> ex.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Integer condimentum arcu nec purus posuere, et sodales nunc
+            ullamcorper. <a href="https://googele.com">Google</a> pose posuere
+            tincidunt posuere. Mauris dapibus gravida tortor in pharetra. Nunc
+            at nulla vitae mi congue pellentesque eu eu sapien. Suspendisse
+            mollis quis dolor sit amet convallis. Quisque faucibus eros ut elit
+            bibendum, in sodales velit consequat. Integer venenatis leo eget
+            magna volutpat, a varius felis congue.
+          </p>
           <ul>
             <li>Unordered List</li>
             <li>Unordered List</li>

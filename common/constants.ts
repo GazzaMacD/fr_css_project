@@ -8,5 +8,5 @@ export const SITE_CONFIG = {
  */
 export const COLORS: { [key: string]: string } = {
   richBlack: `#010203`,
-  aliveVGreen: `#00d1b3`,
+  orange: `#f9423a`,
 };

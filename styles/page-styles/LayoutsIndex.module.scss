@@ -1,0 +1,44 @@
+@import "@/styles/sass/utils";
+.LayoutIndex {
+  min-height: 200vh;
+  background-color: orangered;
+  display: grid;
+  grid-template-columns:
+    minmax(10px, 100px) repeat(5, minmax(20px, 200px)) 0.5fr minmax(200px, 4fr)
+    1.5fr;
+  grid-template-rows: 20px 25px min-content repeat(5, auto);
+  gap: 10px;
+  & div {
+    &:nth-child(1) {
+      grid-column: 1 / -1;
+    }
+    &:nth-child(3) {
+      grid-column: 2 / 7;
+    }
+    &:nth-child(4) {
+      grid-column: 8 / 9;
+      grid-row: 3/6;
+      font-family: $arial-black;
+      text-transform: uppercase;
+      color: white;
+      font-size: 6.3rem;
+      line-height: 1;
+      transform: scaleY(1.08);
+      overflow-wrap: anywhere;
+      overflow: visible;
+    }
+    &:nth-child(7) {
+      grid-column: 2 / 7;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+}
+
+.LinkImage {
+  position: relative;
+  background-color: white;
+  width: calc(200px);
+  height: calc(200px);
+}

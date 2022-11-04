@@ -16,7 +16,7 @@ type TBProps = {
 
 function Button({
   border = `none`,
-  backgroundColor = COLORS[`aliveVGreen`],
+  backgroundColor = COLORS[`orange`],
   color = COLORS[`richBlack`],
   children,
   height = `auto`,
