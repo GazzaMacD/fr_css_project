@@ -1,0 +1,6 @@
+.container {
+  width: calc(100% - ($spacer * 1.4));
+  max-width: map-get($map: $breakpoints, $key: "wide");
+  margin: 0 auto;
+  padding: 0 $spacer;
+}

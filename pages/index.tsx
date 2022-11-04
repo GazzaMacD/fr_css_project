@@ -23,8 +23,48 @@ const Home: TNextPageWithLayout = (): JSX.Element => {
       </Head>
 
       <div className={styles.Home}>
-        <h1 className={styles.Home__title}>Next.js Project Starter</h1>
-        <br></br>
+        <div className="container">
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            interdum risus leo, luctus dapibus mi imperdiet feugiat. Aenean
+            sagittis, ex ut maximus consequat, nulla erat tincidunt diam, in
+            varius velit enim in tortor. Integer sed egestas est. Maecenas
+            lectus leo, lobortis quis sodales non, malesuada vitae arcu. Duis
+            metus massa, ultrices ut egestas in, vehicula sit amet nunc. Sed nec
+            quam bibendum ante varius pulvinar a in ex. Quisque scelerisque
+            feugiat lacus, vitae rhoncus nunc viverra et.{` `}
+          </p>
+          <p>
+            Vivamus ullamcorper nisl quis viverra tincidunt. Donec vel aliquam
+            ligula, ac pharetra lacus. Ut auctor magna quis lobortis tincidunt.
+            Morbi eget metus sit amet augue varius gravida. Suspendisse bibendum
+            ultrices volutpat. Phasellus vel quam in purus rhoncus auctor.
+            Nullam eu nunc sem. Donec ligula enim, congue ut massa suscipit,
+            vulputate laoreet massa. Integer at est molestie, viverra velit sed,
+            porttitor eros.
+          </p>
+          <ul>
+            <li>Unordered List</li>
+            <li>Unordered List</li>
+            <li>Unordered List</li>
+            <li>Unordered List</li>
+            <li>Unordered List</li>
+          </ul>
+          <hr></hr>
+          <ol>
+            <li>ordered List</li>
+            <li>ordered List</li>
+            <li>ordered List</li>
+            <li>ordered List</li>
+            <li>ordered List</li>
+          </ol>
+        </div>
         <Button clickHandler={() => setShowTestText(!showTestText)}>
           Test Button
         </Button>

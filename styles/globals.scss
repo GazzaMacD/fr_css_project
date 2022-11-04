@@ -1,20 +1,6 @@
-@import "./sass/utility/reset";
-@import "./sass/utility";
-@import "./sass/modules";
-@import "./sass/layout/base";
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: $primary-font-family;
-}
+@import "@/styles/sass/main";
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
