@@ -3,6 +3,7 @@ import Head from "next/head";
 import { SITE_CONFIG } from "@/common/constants";
 import { Logo } from "@/components/elements/Logo";
 import { GlobalHeader } from "@/components/modules/GlobalHeader";
+import { MainMenu } from "@/components/modules/MainMenu/GlobalHeader";
 import styles from "./FrontLayout.module.scss";
 
 type TFLProps = {
@@ -18,6 +19,7 @@ const FrontLayout = ({ children }: TFLProps): JSX.Element => {
       </Head>
       <GlobalHeader>
         <Logo />
+        <MainMenu />
       </GlobalHeader>
       <div className={styles.Content}>{children}</div>
     </>

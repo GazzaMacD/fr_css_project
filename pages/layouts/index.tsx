@@ -17,14 +17,16 @@ const LayoutsIndex: TNextPageWithLayout = (): JSX.Element => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.LayoutIndex}>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div>types of layout</div>
-        <div></div>
-        <div></div>
-        <div>
+      <main className={styles.Main}>
+        <div className={styles.Main__heading}>
+          <h1>
+            <div>types</div>
+            <div>of</div>
+            <div>layout</div>
+          </h1>
+        </div>
+        <div className={styles.Main__links}>
+          <LinkImageBlock />
           <LinkImageBlock />
           <LinkImageBlock />
           <LinkImageBlock />

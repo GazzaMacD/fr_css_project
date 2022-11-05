@@ -1,0 +1,26 @@
+@import "@/styles/sass/utils";
+
+.MainMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  text-transform: uppercase;
+  & ul {
+    display: flex;
+    align-items: stretch;
+    padding: 0 $spacer;
+    list-style: none;
+  }
+  & li {
+    display: flex;
+    align-items: stretch;
+  }
+  & a {
+    padding: 0 $spacer;
+    display: flex;
+    align-items: center;
+    &:hover {
+      background-color: lighten($orange, 5%);
+    }
+  }
+}
