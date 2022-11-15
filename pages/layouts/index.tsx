@@ -1,5 +1,6 @@
 import * as React from "react";
 import Head from "next/head";
+import { SlHome } from "react-icons/sl";
 
 import { BaseLayout } from "@/components/layouts/BaseLayout/BaseLayout";
 import styles from "@/styles/page-styles/LayoutsIndex.module.scss";
@@ -16,29 +17,31 @@ const LayoutsIndex: TNextPageWithLayout = (): JSX.Element => {
         <meta name="description" content="description here" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.Main}>
-        <div className={styles.Main__heading}>
-          <h1>
-            <div>types</div>
-            <div>of</div>
-            <div>layout</div>
-          </h1>
-        </div>
-        <div className={styles.Main__links}>
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-          <LinkImageBlock />
-        </div>
-      </main>
+      <div className={styles.Wrapper}>
+        <main className={styles.Main}>
+          <div className={styles.Main__heading}>
+            <h1>
+              <div>types</div>
+              <div>of</div>
+              <div>layout</div>
+            </h1>
+          </div>
+          <div className={styles.Main__links}>
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+            <LinkImageBlock />
+          </div>
+        </main>
+        <HomeLink />
+      </div>
     </>
   );
 };
@@ -63,5 +66,17 @@ function LinkImageBlock() {
         </div>
       </a>
     </Link>
+  );
+}
+
+function HomeLink() {
+  return (
+    <div className={styles.HomeLink}>
+      <Link href="/">
+        <a>
+          <SlHome />
+        </a>
+      </Link>
+    </div>
   );
 }

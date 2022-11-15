@@ -3,7 +3,7 @@ import Head from "next/head";
 import { SITE_CONFIG } from "@/common/constants";
 import { Logo } from "@/components/elements/Logo";
 import { GlobalHeader } from "@/components/modules/GlobalHeader";
-import { MainMenu } from "@/components/modules/MainMenu/GlobalHeader";
+import { MainMenu } from "@/components/modules/MainMenu";
 import styles from "./FrontLayout.module.scss";
 
 type TFLProps = {

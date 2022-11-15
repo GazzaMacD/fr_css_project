@@ -14,13 +14,13 @@
   & li {
     display: flex;
     align-items: stretch;
+    &:hover {
+      background-color: lighten($orange, 5%);
+    }
   }
   & a {
     padding: 0 $spacer;
     display: flex;
     align-items: center;
-    &:hover {
-      background-color: lighten($orange, 5%);
-    }
   }
 }
