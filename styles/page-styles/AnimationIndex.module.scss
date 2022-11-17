@@ -1,0 +1,8 @@
+@import "@/styles/sass/utils";
+.Wrapper {
+  position: relative;
+  min-height: 200vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}

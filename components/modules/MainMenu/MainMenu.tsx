@@ -11,18 +11,23 @@ function MainMenu(): JSX.Element {
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/animation">
             <a>animation</a>
           </Link>
         </li>
         <li>
-          <Link href="#">
-            <a>clip path</a>
+          <Link href="hundred-day-challenge">
+            <a>100 day challenge</a>
           </Link>
         </li>
         <li>
           <Link href="#">
-            <a>100 day challenge</a>
+            <a>clip path fun</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
+            <a>inspiration</a>
           </Link>
         </li>
       </ul>

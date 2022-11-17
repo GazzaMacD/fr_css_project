@@ -1,6 +1,15 @@
 // Colors
 $rich-black: #010203;
 $orange: #f9423a;
+$orangered: orangered;
+$antique: #e8dcca;
+//F Colors
+$navy: #101061;
+$sky: #8fbfef;
+$link-blue: #2984de;
+$blue: #1a1aa2;
+$khaki: #baab8e;
+$beige: #e7e1cf;
 
 // Opacity
 $base-opacity: 1;
@@ -12,11 +21,15 @@ $breakpoints: (
   medium: 768px,
   large: 992px,
   wide: 1200px,
+  extra-wide: 1600px,
 );
 
 // Font familys
 $helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $arial-black: "Arial Black", Arial, sans-serif;
+$courier: "Courier New", "Courier", sans-serif;
+$georgia: Georgia, Times, "Times New Roman", serif;
+$verdana: Verdana, Geneva, sans-serif;
 
 $base-font-size: 1rem;
 $line-height-base: 1.5;

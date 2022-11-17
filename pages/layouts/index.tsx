@@ -1,6 +1,5 @@
 import * as React from "react";
 import Head from "next/head";
-import { SlHome } from "react-icons/sl";
 
 import { BaseLayout } from "@/components/layouts/BaseLayout/BaseLayout";
 import styles from "@/styles/page-styles/LayoutsIndex.module.scss";
@@ -8,6 +7,7 @@ import styles from "@/styles/page-styles/LayoutsIndex.module.scss";
 import { TNextPageWithLayout } from "@/common/types";
 import Link from "next/link";
 import Image from "next/image";
+import { HomeLink } from "@/components/elements/HomeLink";
 
 const LayoutsIndex: TNextPageWithLayout = (): JSX.Element => {
   return (
@@ -66,17 +66,5 @@ function LinkImageBlock() {
         </div>
       </a>
     </Link>
-  );
-}
-
-function HomeLink() {
-  return (
-    <div className={styles.HomeLink}>
-      <Link href="/">
-        <a>
-          <SlHome />
-        </a>
-      </Link>
-    </div>
   );
 }

@@ -1,0 +1,33 @@
+@import "@/styles/sass/utils";
+.Wrapper {
+  position: relative;
+  background-color: $antique;
+  h1 {
+    text-align: center;
+    padding: 75px 2rem 2rem 2rem;
+  }
+}
+.Days {
+  padding: 0.5rem;
+  min-height: 150vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(320px, 420px);
+  justify-items: center;
+  gap: 1rem;
+  transition: all 1s ease-in-out;
+  @include breakpoint(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoint(large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include breakpoint(wide) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  @include breakpoint(extra-wide) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+}
